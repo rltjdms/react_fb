@@ -1,0 +1,235 @@
+@charset "utf-8";
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+$body-font: "Lato","Noto Sans KR",sans-serif;
+$main-color: #F26529;
+
+$title-size: 18px;
+$tag-size: 14px;
+
+
+
+body {
+  font: 0.75em #{$body-font};
+  color: #111;
+  line-height: 1.25;
+  font-weight: 500;
+  word-break: keep-all;
+  background: #fff;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+}
+
+section {
+  margin: 120px 0;
+}
+
+nav a {
+  font-size: #{$tag-size};
+}
+
+.logout_btn {
+  border:  none;
+  background: none;
+
+  &:hover {
+    color: #{$main-color};
+  }
+} 
+
+
+
+section {
+  margin: 120px 0;
+
+  .thumb {
+    position: relative;
+
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.025);
+      border-radius: 16px;
+    }
+  }
+
+  .video {
+    position: relative;
+    width: 100%;
+    max-width: 715px;
+    box-sizing: border-box;
+    z-index: 2;
+
+    .video_area {
+      position: relative;
+      width: 100%;
+      height: auto;
+      padding-bottom: calc(100% * 9 / 16);
+
+      iframe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 2;
+      }
+    }
+  }
+
+  .text_box {
+    .title, .totalPrice, .discount {
+      font-size: #{$title-size};
+    }
+
+    .discount {
+      color: #{$main-color};
+    }
+
+    .tag, .price {
+      font-size:  #{$tag-size};
+    }
+  }
+
+  .price_box {
+    display: flex;
+    align-items: center;
+
+    > * {
+      margin: 0 24px 0 0;
+    }
+    
+  }
+
+  .price {
+    text-decoration: line-through;
+    color: #aeaeae;
+  }
+
+  .tit {
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 34px;
+  }
+
+  .ct_box {
+    .notice_title ,
+    .notice_date {
+        font-size: #{$title-size};
+    }
+    .notice_date {
+        font-size:  #{$tag-size};
+        white-space: nowrap;
+    }
+  }
+}
+
+
+
+/* Main - best */
+@media (max-width: 1020px) {
+
+    .main_font section .text_box {
+        .title, .totalPrice, .discount {
+            font-size: #{$title-size - 2px};
+        }
+
+        .discount {
+            color: #F26529;
+        }
+
+        .tag, .price {
+            font-size:  #{$tag-size - 2px};
+        }
+    }
+
+    .md_box {
+        .row {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 1rem;
+        }
+
+        .video {
+            margin-bottom: 1.5rem;
+        }
+
+        .ct_box {
+            .ct_bot_box.row {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 1rem;
+            }
+
+            .ct_bot_box .line {
+            width: auto;
+            height: 2px;
+            margin: calc(var(--bs-gutter-x) * .5) 0;
+            }
+        }
+    }
+
+    .main_font section .ct_box {
+        .ct_top {
+            padding: 20px;
+        }
+        .notice_title {
+            width: 200px; 
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden; 
+        }
+
+        .notice_title ,
+        .notice_date {
+            font-size: #{$title-size - 2px};
+        }
+        .notice_date {
+            font-size:  #{$tag-size - 2px};
+        }
+    }
+}
+
+@media (max-width: 770px) {
+    .main_font section .ct_box .ct_bot {
+        padding: 22px 30px;
+    }    .main_font section .ct_box .ct_bot_box {
+        padding: 22px 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .best_box {
+        .row-cols-sm-2 > * {
+            margin-bottom: calc(var(--bs-gutter-x) * .5);
+        }
+    }
+    .main_font section .notice_title {
+        margin-left: 25px;
+    }
+
+  .md_box {
+    .text_box {
+        box-sizing: border-box;
+        padding-right: 20px;
+    }
+  }
+}
+
