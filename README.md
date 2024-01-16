@@ -26,6 +26,7 @@
   <img src="https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=flat&logo=javascript&logoColor=white"/>
   <img src="https://img.shields.io/badge/REACT-61DAFB?style=flat&logo=react&logoColor=white"/>
   <img src="https://img.shields.io/badge/SCSS-CC6699?style=flat&logo=sass&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=white"/>
 </div>
 <br>
 
@@ -35,5 +36,6 @@
 <div>
   <img src="https://img.shields.io/badge/VSCODE-007ACC?style=flat&logo=VisualStudioCode&logoColor=white"/>
   <img src="https://img.shields.io/badge/GITHUB-181717?style=flat&logo=Github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=white"/>
 </div>
 <br>
