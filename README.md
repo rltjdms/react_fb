@@ -5,7 +5,7 @@
 ### CNP 리뉴얼 웹페이지 팀 프로젝트
 
 > ### 완성작 보러가기🔍
-[https://rltjdms.github.io/last_child/](https://rltjdms.github.io/last_child/)
+[https://rltjdms.github.io/react_fb/](https://rltjdms.github.io/react_fb/)
 
 <br>
 
