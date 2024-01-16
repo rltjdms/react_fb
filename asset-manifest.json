@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react_fb/static/css/main.dd113b0b.css",
-    "main.js": "/react_fb/static/js/main.591326be.js",
+    "main.js": "/react_fb/static/js/main.0bec1212.js",
     "index.html": "/react_fb/index.html",
     "main.dd113b0b.css.map": "/react_fb/static/css/main.dd113b0b.css.map",
-    "main.591326be.js.map": "/react_fb/static/js/main.591326be.js.map"
+    "main.0bec1212.js.map": "/react_fb/static/js/main.0bec1212.js.map"
   },
   "entrypoints": [
     "static/css/main.dd113b0b.css",
-    "static/js/main.591326be.js"
+    "static/js/main.0bec1212.js"
   ]
 }
