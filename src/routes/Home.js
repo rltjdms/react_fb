@@ -159,7 +159,6 @@ function Home (props) {
                 </section>
         </Container>
         <Topbtn/>
-        <Footer/>
     </>
    )
 }
