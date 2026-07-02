@@ -128,6 +128,7 @@ function Home (props) {
                                     <iframe
                                     src="https://www.youtube.com/embed/M7lc1UVf-VE"
                                     title="YouTube video player"
+                                    referrerPolicy="strict-origin-when-cross-origin"
                                     allowFullScreen
                                     />
                                 </div>
