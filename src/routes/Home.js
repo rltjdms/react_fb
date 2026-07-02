@@ -124,12 +124,15 @@ function Home (props) {
                         <div className="video col">
                             <div className="video_area">
                                <iframe
-                                src="https://www.youtube.com/embed/GvdppThHcd8"
+                                width="560"
+                                height="315"
+                                src="https://www.youtube.com/embed/VIDEO_ID?rel=0"
                                 title="YouTube video player"
                                 frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerPolicy="strict-origin-when-cross-origin"
                                 allowFullScreen
-                                />
+                                ></iframe>
                             </div>
                         </div>
                         <SwiperBox className="col">
