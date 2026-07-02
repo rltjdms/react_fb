@@ -6,6 +6,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/free-mode';
 import 'swiper/css/scrollbar';
 import { FreeMode, Scrollbar, Mousewheel } from 'swiper/modules';
+import "../App.css";
 
 
 
@@ -123,16 +124,13 @@ function Home (props) {
                     <Row className="align-items-center">
                         <div className="video col">
                             <div className="video_area">
-                               <iframe
-                                width="560"
-                                height="315"
-                               src="https://www.youtube.com/embed/M7lc1UVf-VE"
-                                title="YouTube video player"
-                                frameBorder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerPolicy="strict-origin-when-cross-origin"
-                                allowFullScreen
-                                ></iframe>
+                               <div className="yt_wrap">
+                                    <iframe
+                                    src="https://www.youtube.com/embed/M7lc1UVf-VE"
+                                    title="YouTube video player"
+                                    allowFullScreen
+                                    />
+                                </div>
                             </div>
                         </div>
                         <SwiperBox className="col">
