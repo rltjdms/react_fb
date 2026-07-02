@@ -123,7 +123,7 @@ function Home (props) {
                     <Row className="align-items-center">
                         <div className="video col">
                             <div className="video_area">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?corols=1&amp;mute=1&amp;autoplay=1&amp;loop=1&amp;list=PL0fxwj3vYLQQhm1IMEcwMqU1tZng2VkFF" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen=""></iframe>
+                                <iframe width="560" height="315" src="https://youtu.be/rhncD7HRbcQ?si=5nWi2k1xGznAUNh3" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen=""></iframe>
                             </div>
                         </div>
                         <SwiperBox className="col">
